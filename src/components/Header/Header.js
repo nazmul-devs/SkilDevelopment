@@ -44,9 +44,9 @@ const Header = () => {
 							activeStyle={navItemActive}
 							className="nav-item"
 							style={navItemStyle}
-							to="/cources"
+							to="/facilitys"
 						>
-							Cources
+							Facilitys
 						</NavLink>
 						<NavLink
 							activeStyle={navItemActive}
@@ -54,12 +54,15 @@ const Header = () => {
 							style={navItemStyle}
 							to="/about"
 						>
-							About
+							About Us
 						</NavLink>
 					</Nav>
 				</Navbar.Collapse>
 				<div className="float-end">
-					<Button variant="primary" className="fw-bold">
+					<Button
+						style={{ background: "#ff8c00" }}
+						className="fw-bold border-0"
+					>
 						APPLY NOW
 					</Button>
 				</div>

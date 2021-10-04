@@ -1,26 +1,82 @@
 [
 	{
 		"id": "01",
-		"title": "Easy to Learn",
-		"description": "We try to present our courses in the simplest way possible. This is the best way for you to learn",
-		"img": "https://rapid-elearning-blog.s3.amazonaws.com/0315/350.png"
+		"title": "UI/UX Design Pattern For Succesfull Software Applications",
+		"cetagorie": "Design",
+		"time": "10 hr 07 min",
+		"lacture": "67",
+		"price": "159",
+		"type": "Beginer",
+		"img": "https://lh3.googleusercontent.com/proxy/dXse0xaQFH3LLrWPaBe9WaxJWQpPBHbKtDkaM5TDZMoQexgdhPdcD7xAhe8XPuh2WwpW2N-k1Z2bFOJJfwVoy3dpS1aINUw1YAxhnHq3V1mg6G4Awds-clMx5Q"
 	},
 	{
 		"id": "02",
-		"title": "Support all Time",
-		"description": "We will always support you to teach you in a very quick and easy way",
-		"img": "https://discover.realvnc.com/hubfs/VNC%20Connect%20Instant%20Support%20remote%20desktop.jpg"
+		"title": "Basic Knowledge About Hodiernal Bharat In History",
+		"cetagorie": "Banking",
+		"time": "05 hr 07 min",
+		"lacture": "22",
+		"price": "99",
+		"type": "Beginer",
+		"img": "https://satoasiapacific.com/india/wp-content/uploads/sites/19/2019/07/banking_thumb.jpg"
 	},
 	{
 		"id": "03",
-		"title": "lifetime access",
-		"description": "For your convenience we will give you lifetime access. And you will always get our support",
-		"img": "https://helios-i.mashable.com/imagery/articles/05m4nd2ZFlX8QRwjicpveDo/hero-image.fill.size_1200x900.v1623390540.jpg"
+		"title": "Advance PHP Knowledge With Laravel To Make Smart Web",
+		"cetagorie": "Development",
+		"time": "07 hr 05 min",
+		"lacture": "42",
+		"price": "169",
+		"type": "Beginer",
+		"img": "https://uploads.sitepoint.com/wp-content/uploads/2021/03/1617674132install-php.png"
 	},
 	{
 		"id": "04",
-		"title": " support session",
-		"description": "For your convenience we will give you lifetime access. And you will always get our support",
-		"img": "https://www.commbox.io/wp-content/uploads/2019/10/41-1-1024x597.jpg"
+		"title": "The Complete Accounting & Bank Financial Course 2021",
+		"cetagorie": "Physics",
+		"time": "05 hr 10 min",
+		"lacture": "51",
+		"price": "59",
+		"type": "Beginer",
+		"img": "https://techloop.io/wp-content/uploads/2018/10/developer-woman.png"
+	},
+	{
+		"id": "05",
+		"title": "The Complete Business Plan Course Includes 50 Templates",
+		"cetagorie": "Maths",
+		"time": "10 hr 12 min",
+		"lacture": "43",
+		"price": "119",
+		"type": "Beginer",
+		"img": "https://www.bluskysoftware.com/wp-content/uploads/2020/04/Crossfade-Tracks.jpg"
+	},
+	{
+		"id": "06",
+		"title": "Full Web Designing Course With 20 Web Template Designing",
+		"cetagorie": "Design",
+		"time": "07 hr 15 min",
+		"lacture": "57",
+		"price": "199",
+		"type": "Beginer",
+		"img": "https://st4.depositphotos.com/12985848/20157/i/600/depositphotos_201579582-stock-photo-attractive-businesswoman-working-laptop-office.jpg"
+	},
+	{
+		"id": "07",
+		"title": "Introduction To Web Development",
+		"cetagorie": "Development",
+		"time": "10 hr 15 min",
+		"lacture": "57",
+		"price": "299",
+		"type": "Beginer",
+		"img": "https://developermedia.com/wp-content/uploads/2020/05/what-ad-copy-draws-developers-interest-1000x667-1.jpg"
+	},
+	{
+		"id": "08",
+		"title": "Introduction To Networking",
+		"cetagorie": "Networking",
+		"time": "05 hr 15 min",
+		"lacture": "35",
+		"price": "159",
+		"type": "Beginer",
+		"img": "http://invest.plovdiv.bg/wp-content/uploads/2018/04/female-it.jpg"
 	}
 ]

@@ -14,11 +14,11 @@ const Footer = () => {
 					</Col>
 					<Col sm={12} md={5}>
 						<div className="quick-link d-flex">
+							<Link className="mx-3" to="/">
+								Home
+							</Link>
 							<Link className="mx-3" to="/services">
 								Service
-							</Link>
-							<Link className="mx-3" to="/cources">
-								Cources
 							</Link>
 							<Link className="mx-3" to="/about">
 								About Us
