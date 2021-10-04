@@ -1,0 +1,10 @@
+.facility-img > img {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.facility-container {
+	padding-top: 20px;
+}
