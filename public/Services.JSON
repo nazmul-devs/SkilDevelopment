@@ -1,0 +1,26 @@
+[
+	{
+		"id": "01",
+		"title": "Easy to Learn",
+		"description": "We try to present our courses in the simplest way possible. This is the best way for you to learn",
+		"img": "https://rapid-elearning-blog.s3.amazonaws.com/0315/350.png"
+	},
+	{
+		"id": "02",
+		"title": "Support all Time",
+		"description": "We will always support you to teach you in a very quick and easy way",
+		"img": "https://discover.realvnc.com/hubfs/VNC%20Connect%20Instant%20Support%20remote%20desktop.jpg"
+	},
+	{
+		"id": "03",
+		"title": "lifetime access",
+		"description": "For your convenience we will give you lifetime access. And you will always get our support",
+		"img": "https://helios-i.mashable.com/imagery/articles/05m4nd2ZFlX8QRwjicpveDo/hero-image.fill.size_1200x900.v1623390540.jpg"
+	},
+	{
+		"id": "04",
+		"title": " support session",
+		"description": "For your convenience we will give you lifetime access. And you will always get our support",
+		"img": "https://www.commbox.io/wp-content/uploads/2019/10/41-1-1024x597.jpg"
+	}
+]
