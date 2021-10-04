@@ -3,6 +3,7 @@ import { Button, Container } from "react-bootstrap";
 import { useHistory } from "react-router";
 import UseFacilitys from "../../CustomHooks/UseFacilitys";
 import UseServices from "../../CustomHooks/UseServices";
+import About from "../About/About";
 import Facilitys from "../Facilitys/Facilitys";
 import Services from "../Services/Services";
 import "./Home.css";
@@ -47,6 +48,7 @@ const Home = () => {
 					Explore More Facilitys
 				</Button>
 			</Container>
+			<About />
 		</>
 	);
 };

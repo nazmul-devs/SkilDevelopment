@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./components/Header/Header";
@@ -28,7 +29,14 @@ function App() {
 					<Facilitys>{facilitys}</Facilitys>
 				</Route>
 				<Route exact path="/about">
-					<About />
+					<About>
+						<Button
+							style={{ background: "#ff8c00" }}
+							className="fw-bold border-0"
+						>
+							ENROLLED TODAY
+						</Button>
+					</About>
 				</Route>
 				<Route path="*">
 					<NotFound />

@@ -2,10 +2,11 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import about from "../../img/about-us.jfif";
 
-const About = () => {
+const About = (props) => {
+	const button = props.children;
 	return (
-		<Container>
-			<Row>
+		<Container style={{ height: "65vh", marginTop: "140px" }}>
+			<Row className="my-5">
 				<Col xs={12} md={7}>
 					<h2>We Have The Best Instructors Available In The City</h2>
 					<div className="mt-5">
@@ -22,15 +23,10 @@ const About = () => {
 							<i class="fas fa-check"></i> Free Trial 7 Days
 						</p>
 					</div>
-					<Button
-						style={{ background: "#ff8c00" }}
-						className="fw-bold border-0"
-					>
-						ENROLLED TODAY
-					</Button>
+					{button}
 				</Col>
 				<Col xs={12} md={5}>
-					<img src={about} alt="" />
+					<img src={about} className="img-fluid rounded" alt="" />
 				</Col>
 			</Row>
 		</Container>
