@@ -8,8 +8,10 @@ import Footer from "./components/Footer/Footer";
 import Services from "./components/Services/Services";
 import Facilitys from "./components/Facilitys/Facilitys";
 import About from "./components/About/About";
+import UseServices from "./CustomHooks/UseServices";
 
 function App() {
+	const services = UseServices();
 	return (
 		<Router>
 			<Header />
@@ -18,7 +20,7 @@ function App() {
 					<Home />
 				</Route>
 				<Route exact path="/services">
-					<Services />
+					<Services>{services}</Services>
 				</Route>
 				<Route exact path="/facilitys">
 					<Facilitys />
