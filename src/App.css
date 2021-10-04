@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+.service-ceta {
+	background: #808df034;
+	padding: 2px 15px;
+	color: #0118c5;
+	font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.course-type {
+	color: gray;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.course-time {
+	background: #f0df80a8;
+	padding: 1px 15px;
+	color: gray;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lacture {
+	color: #0118c5;
+	font-weight: 600;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price {
+	font-weight: 800;
+	color: #ff8c00;
 }

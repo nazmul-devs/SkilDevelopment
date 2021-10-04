@@ -10,7 +10,7 @@ const Services = (props) => {
 			<p className="fs-4">
 				we provide our best for improve and grow up your skill
 			</p>
-			<Row xs={1} md={3} className="g-4">
+			<Row xs={1} md={2} className="g-4">
 				{services?.map((service) => (
 					<Service key={service.id} service={service} />
 				))}

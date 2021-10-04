@@ -1,10 +1,12 @@
 import React from "react";
+import { Button, Container } from "react-bootstrap";
 import UseServices from "../../CustomHooks/UseServices";
 import Services from "../Services/Services";
 import "./Home.css";
 
 const Home = () => {
 	const services = UseServices();
+	console.log(services);
 	return (
 		<>
 			<div className="home-banner">
@@ -15,7 +17,15 @@ const Home = () => {
 					</h3>
 				</div>
 			</div>
-			<Services>{services.slice(0, 4)}</Services>
+			<Container className="mb-5">
+				<Services>{services?.slice(0, 4)}</Services>
+				<Button
+					style={{ background: "#ff8c00" }}
+					className="fw-bold border-0 ms-5"
+				>
+					Explore More Services
+				</Button>
+			</Container>
 		</>
 	);
 };
