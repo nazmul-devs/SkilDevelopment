@@ -22,9 +22,11 @@
 	color: #ff8c00;
 }
 
+/* about section chech mark style */
 .fa-check {
 	background: #ff8c0038;
 	color: #ff8c00;
 	border-radius: 50%;
 	padding: 5px;
+	margin-right: 8px;
 }

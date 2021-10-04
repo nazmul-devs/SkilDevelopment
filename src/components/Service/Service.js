@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, Col, Row } from "react-bootstrap";
+import { Button, Card, Col } from "react-bootstrap";
 
 const Service = (props) => {
 	const { title, img, lacture, price, time, type, cetagorie } = props.service;
@@ -11,16 +11,16 @@ const Service = (props) => {
 					<div className="d-flex justify-content-around">
 						<p className="service-ceta rounded-pill"> {cetagorie}</p>
 						<p className="course-type fw-bold">
-							<i class="fas fa-signal"></i> {type}
+							<i className="fas fa-signal"></i> {type}
 						</p>
 					</div>
 					<Card.Title>{title}</Card.Title>
 					<div className="d-flex justify-content-around">
 						<p className="course-time rounded-pill shadow fw-bold">
-							<i class="far fa-clock "></i> {time}
+							<i className="far fa-clock "></i> {time}
 						</p>
 						<p className="lacture">
-							<i class="fas fa-video"></i> {lacture} Lectures
+							<i className="fas fa-video"></i> {lacture} Lectures
 						</p>
 					</div>
 					<div className="d-flex justify-content-around">

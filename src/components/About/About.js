@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import about from "../../img/about-us.jfif";
 
 const About = (props) => {
@@ -11,16 +11,16 @@ const About = (props) => {
 					<h2>We Have The Best Instructors Available In The City</h2>
 					<div className="mt-5">
 						<p>
-							<i class="fas fa-check"></i> Full Lifetime Access
+							<i className="fas fa-check"></i> Full Lifetime Access
 						</p>
 						<p>
-							<i class="fas fa-check"></i> 20+ Downloadable Resources
+							<i className="fas fa-check"></i> 20+ Downloadable Resources
 						</p>
 						<p>
-							<i class="fas fa-check"></i> Certificate Of Completion
+							<i className="fas fa-check"></i> Certificate Of Completion
 						</p>
 						<p>
-							<i class="fas fa-check"></i> Free Trial 7 Days
+							<i className="fas fa-check"></i> Free Trial 7 Days
 						</p>
 					</div>
 					{button}
