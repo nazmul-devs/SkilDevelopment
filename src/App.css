@@ -21,3 +21,10 @@
 	font-weight: 800;
 	color: #ff8c00;
 }
+
+.fa-check {
+	background: #ff8c0038;
+	color: #ff8c00;
+	border-radius: 50%;
+	padding: 5px;
+}

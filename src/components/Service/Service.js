@@ -27,7 +27,7 @@ const Service = (props) => {
 						<h3 className="price">$ {price}</h3>
 						<Button
 							style={{ background: "#ff8c00" }}
-							className="fw-bold border-0"
+							className="fw-bold border-0 px-4"
 						>
 							ENROLL
 						</Button>
