@@ -1,6 +1,6 @@
 # Skill Developmnet
 
-This project with React-Bootstrap and React-Route [Live Site](https://skill-development.netlify.app/about).
+This project with React-Bootstrap and React-Route [Live Site](https://skill-development.netlify.app/).
 
 ## Project details
 
