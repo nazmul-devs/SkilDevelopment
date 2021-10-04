@@ -1,12 +1,10 @@
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import UseFacilitys from "../../CustomHooks/UseFacilitys";
 import Facility from "../Facility/Facility";
 
-const Facilitys = () => {
-	const facilitys = UseFacilitys();
+const Facilitys = (props) => {
+	const facilitys = props.children;
 	return (
 		<Container className="facility-container text-center">
 			<h2 className="mt-5 fs-1 fw-bolder">Our Facilitys</h2>

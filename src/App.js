@@ -9,9 +9,11 @@ import Services from "./components/Services/Services";
 import Facilitys from "./components/Facilitys/Facilitys";
 import About from "./components/About/About";
 import UseServices from "./CustomHooks/UseServices";
+import UseFacilitys from "./CustomHooks/UseFacilitys";
 
 function App() {
 	const services = UseServices();
+	const facilitys = UseFacilitys();
 	return (
 		<Router>
 			<Header />
@@ -23,7 +25,7 @@ function App() {
 					<Services>{services}</Services>
 				</Route>
 				<Route exact path="/facilitys">
-					<Facilitys />
+					<Facilitys>{facilitys}</Facilitys>
 				</Route>
 				<Route exact path="/about">
 					<About />
